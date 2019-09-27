@@ -4,62 +4,87 @@
              har en låtskrivare osv. Inom head anges liknande information och lite till. Här anges även länkar till de stilmallar (css) som används för att designa webbsidan. -->
     <meta charset="utf-8"><!-- Deklarerar vilken teckenuppsättning som används för informationen på webbsidan. (Får bara finnas en sådan deklaration per webbsida.) -->
     <title>Grupp 3.1</title><!-- Deklarerar webbsidans titel. Det är den titeln som sökmotorn ger till din webbplats samt syns i fliken när du är inne på webbplatsen eller har den öppen. (Får bara finnas en sådan deklaration per webbsida.) -->
-    <meta name="author" content="Klas Gråhns, Samuel Gustafsson, Robin Hellström, Josef Hallberg"><!-- Deklarerar vilka som skapat webbsidan. (Får bara finnas en sådan deklaration per webbsida.) -->
+    <meta name="author" content="klas grahns, samuel gustafsson, robin hellstrom, Förnamn Efternamn"><!-- Deklarerar vilka som skapat webbsidan. (Får bara finnas en sådan deklaration per webbsida.) -->
     <meta name="description" content="En webbsida som beskriver oss som grupp och individer"><!-- Beskriver vad sidan handlar om. (Får bara finnas en sådan deklaration per webbsida.) -->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Anger hur skärmen och webbsidans layout ska förhålla sig till varandra. Är avgörande för en responsiv webbdesign. (Får bara finnas en sådan deklaration per webbsida.) -->
     <link rel="stylesheet" href="stilmallar/gruppen.css"><!-- Anger vilken/vilka stilmall/stilmallar som nyttjas för att förändra webbsidans standardutseende. (Får bara finnas en sådan deklaration per webbsida.) -->
   </head>
   <body><!-- Deklarerar starten för det innehållet på webbsidan som skaparna vill visa för användaren. (Får bara finnas en sådan deklaration per webbsida.) -->
     <header>
-        <img src="bilder/XDD.png" alt="groupLogotype" id="groupLogo">
-        <h1 id="headerText">Grupp 3.1</h1>
+      <!-- Här rekommenderar vi att ni placerar logotyp, sidans huvudrubrik, och navigationsmeny -->
+      
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Klas</a>
-        <a href="#">Samuel</a>
-        <a href="#">Robin</a>
-        <a href="#">Josef</a>
+        <div class="navTitle">
+            <h2>Grupp 3:1</h2>
+        </div>
+        <ul>
+          <li><a class="onPage" href="gruppen.html">Home</a></li>
+          <li><a href="grahns_klas.html">Klas</a></li>
+          <li><a href="#">Samuel</a></li>
+          <li><a href="robin_hellstrom.html">Robin</a></li>
+          <li><a href="#">Josef</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="grp_text">
         <!-- Här rekommenderar vi att ni placerar bild på grupp och text om gruppen -->
+         <article>
+           <h1>Grupp 3:1 </h1>
+           <p>
+              Hej vi är grupp 3:1 och här är våran startsida. Gruppen består av Klas Gråhns som kommer från Informationsdesign, Samuel Gustafsson och Robin Hellström från Systemvetenskap och slutligen Josef Hallberg från IT-säkerhet och mjukvarutestning.
+           </p>
+         </article>
       </section>
+      <aside class="grp_img">
+        <section class="img_placeholder">
+            <img src="pictures/klas_bild.jpg">
+        </section>
+        
+      </aside>
     </main>
     <footer>
-      <p>Kontaktuppgifter</p>
-      <table>
-        <tr>
-          <th>Namn</th>
-          <th>Nummer</th>
-          <th>email</th>
-        </tr>
-        <tr>
-          <td>namn</td>
-          <td>nummer</td>
-          <td>email</td>
-        </tr>
-        <tr>
-          <td>namn</td>
-          <td>nummer</td>
-          <td>email</td>
-        </tr>
-        <tr>
-          <td>namn</td>
-          <td>nummer</td>
-          <td>email</td>
-        </tr>
-        <tr>
-          <td>namn</td>
-          <td>nummer</td>
-          <td>email</td>
-        </tr>
-        <tr>
-          <td>namn</td>
-          <td>nummer</td>
-          <td>email</td>
-        </tr>
-      </table>
+      <!-- Här rekommenderar vi att ni anger er kontaktinformation -->
+      <section class="footer_section">
+        <article>
+            <h1>Klas</h1>
+            <ul>
+              <li><p><b>mail:</b> h18klagr@du.se</p></li>
+              <li><p><b>tel:</b> 070-9924446</p></li>
+              <li><p><b>adress:</b> seminariegatan 16b</p></li>
+            </ul>
+        </article>
+      </section>
+      <section class="footer_section">
+        <article>
+            <h1>Samuel</h1>
+            <ul>
+                <li><p><b>mail:</b> h19samgu@du.se</p></li>
+                <li><p><b>tel:</b> 076-111 41 60</p></li>
+                <li><p><b>adress:</b> Lergärdvägen 16s</p></li>
+              </ul>
+        </article>
+      </section>
+      <section class="footer_section">
+        <article>
+            <h1>Robin</h1>
+            <ul>
+                <li><p><b>mail:</b> h19robhe@du.se</p></li>
+                <li><p><b>tel:</b> 076-6314182</p></li>
+                <li><p><b>adress:</b> tunagatan 13b</p></li>
+              </ul>
+        </article>
+      </section>
+      <section class="footer_section">
+        <article>
+            <h1>Josef</h1>
+            <ul>
+                <li><p><b>mail:</b> h19jhall@du.se</p></li>
+                <li><p><b>tel:</b> 072-2004634</p></li>
+                <li><p><b>adress:</b> Ol Daniels väg 14</p></li>
+              </ul>
+        </article>
+      </section>
     </footer>
   </body>
 </html>

@@ -1,0 +1,238 @@
+/* Stilmall för Klas Gråhns */
+/* Stilmall för gruppen 3:1 */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #111;
+  margin:0 
+}
+header {
+  text-align: left;
+}
+article h1, p {
+  color: white;
+}
+/* THE NAVBAR BEGINS HERE */
+nav{
+  background-color: #333;
+  height: 50px;
+}
+.navTitle {
+  float: left;
+  height: 100%;
+  margin-left: 5%;
+}
+.navTitle h2{
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 30px;
+}
+.navLinks {
+  float: right;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 50px;
+  overflow: hidden;
+  height: 100%;
+}
+li {
+  float:left;
+}
+li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 16px 15px;
+  margin: 0;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+/* THE MAIN BEGINS HERE */
+main {
+  height: 1800px;
+}
+/* section one */
+.section-one {
+  height: 650px;
+  padding: 2% 0 0 0;
+}
+.frontImage-holder {
+  float: left;
+  height: 100%;
+  width: 80%;
+  margin: 0 10% 0 10%;
+  padding: 0 3% 0 3%;
+  overflow: hidden;
+}
+.frontImage-holder img {
+  height: 100%;
+  width: 100%;
+}
+/* section two */
+.section-two {
+  width: 100%;
+  float:left;
+  height: 4%;
+  margin-top: 2%;
+}
+.section-two h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 0;
+  color: #F5F5F5;
+}
+/*section three */
+.section-three {
+  height: 400px;
+  width: 64%;
+  padding: 0;
+  float:left;
+}
+.section-three p{
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  text-align: left;
+  text-align-last: justify;
+  padding: 0 20px 0 80px;
+  color: #F5F5F5;
+}
+.aside-left {
+  float: left;
+  height: 400px;
+  width: 18%;
+  margin: 0;
+}
+.aside-left p {
+  text-align: right;
+  padding-top: 0;
+  padding-right: 5px;
+  color: #F5F5F5;
+  font-family: Helvetica;
+  text-transform: uppercase;
+}
+.aside-right {
+  float: left;
+  height: 400px;
+  width: 18%;
+  margin: 0;
+}
+/* section four */
+.section-four {
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+.section-four-item1 {
+  float:left;
+  width: 24.6%;
+  height: 100%;
+  margin-left: 13%;
+}
+.section-four-item2, .section-four-item3 {
+  float:left;
+  width: 24.6%;
+  height: 100%;
+}
+.hobby-card-1, .hobby-card-2, .hobby-card-3 {
+  height: 100%;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #333;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.hobby-card-1 img, .hobby-card-2 img, .hobby-card-3 img {
+  display: block;
+  width: 100%;
+}
+.hobby-card-1 h4, .hobby-card-2 h4, .hobby-card-3 h4 {
+  color: white;
+}
+.hobby-card-1 img {
+  max-height: 75%;
+}
+.hobby-card-2 img {
+  min-height: 75%;
+}
+.hobby-card-3 img {
+  min-height: 75%;
+}
+.hobby-container {
+  text-align: center;
+}
+.hobby-container h4 {
+  font-family: Helvetica;
+  font-size: 1.4em;
+  color: #F5F5F5;
+}
+/* THE FOOTER BEGINS HERE */
+footer {
+  height: 200px;
+  background-color: #333;
+  margin: 0;
+  padding-top: 2%;
+}
+/* section five */
+.section-five {
+  height: 40%;
+  width: 100%;
+}
+.media-container {
+  width: 20%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.fa {
+  display: inline-block;
+  padding: 7%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 2%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-envelope {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #c32aa3;
+  color: white;
+}
+/* section six */
+.section-six {
+  height: 60%;
+  width: 100%;
+  padding: 0 3% 0 3%;
+}
+.section-six p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: 1em;
+}

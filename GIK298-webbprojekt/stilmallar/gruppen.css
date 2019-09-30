@@ -1,6 +1,8 @@
 /* Stilmall för gruppen */
 html {
     box-sizing: border-box;
+    min-width: 1366px;
+	min-height: 768px;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -9,10 +11,13 @@ html {
 body {
   margin: 0;
   background-color: #cccccc;
+  background-image: url(../gruppsidan/gruppBakgrund.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 main {
-    height: 750px;
+    height: 700px;
     width: 100%;
 }
 
@@ -72,7 +77,6 @@ nav{
 /* HÄR BÖRJAR MAIN */
 
 .grp_text {
-    border: 1px solid blue;
     width: 60%;
     height: 600px;
     float: left;
@@ -83,19 +87,25 @@ nav{
     font-size: 3em;
     text-align: center;
     font-family: Arial;
+    color: rgb(255,255,255);
 }
 
 .grp_text p {
     font-size: 1.5em;
     font-family: Helvetica;
+    color: rgb(255,255,255);
 }
 
 .grp_img {
-    border: 1px solid red;
     width: 40%;
     height: 600px;
     float: left;
     padding-top: 4%;
+}
+
+main article {
+    background-color: rgba(255,255,255,.1);
+    padding: 20px 30px 60px 30px;
 }
 
 .img_placeholder {

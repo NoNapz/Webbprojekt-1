@@ -124,7 +124,7 @@ p {
 	background: rgb(255, 255, 255);
 	background: linear-gradient(315deg, #00bef0, #FFFFFF);
 	transform: skew(1deg,1deg);
-	opacity: .5;
+	opacity: .4;
 	z-index: -1;
 }
 .pictureRobin {

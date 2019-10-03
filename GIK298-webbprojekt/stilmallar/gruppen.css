@@ -78,7 +78,6 @@ nav{
 
 .grp_text {
     width: 60%;
-    height: 600px;
     float: left;
     padding: 4%;
 }
@@ -105,7 +104,8 @@ nav{
 
 main article {
     background-color: rgba(255,255,255,.1);
-    padding: 20px 30px 60px 30px;
+    padding: 20px;
+    height: 500px;
 }
 
 .img_placeholder {

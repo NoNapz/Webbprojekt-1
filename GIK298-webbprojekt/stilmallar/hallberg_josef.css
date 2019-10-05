@@ -1,0 +1,165 @@
+* {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    /* max-width: 1366px;
+    min-height: 768px; */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0%;
+    /* width: 1366px; */
+    /* height: 800px; */
+    background-color: white;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: #87CEEB;
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+/* #groupLogo {
+    float: left;
+    width: 50px;
+    height: 50px;
+} */
+
+.navTitle {
+    float: left;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.navTitle h2 {
+    margin: 0;
+    padding: 5px;
+    font-size: 40px
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 50px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 16px;
+}
+
+li a:hover {
+    background-color: #4169E1;
+    color: white;
+}
+
+.active {
+    background-color: darkblue;
+    color: white;
+}
+
+/* SECTION 1: RUBRIK */
+
+.section1 {
+    margin: 0;
+    padding-bottom: 0px;
+    /* float: left; */
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: blue; */
+}
+
+.section1 h1{
+    font-size: 50px;
+}
+
+/* SECTION 2: FOTO */
+
+.section2{
+    float: left;
+    width: 20%;
+    height: 450px;
+    text-align: center;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: green; */
+    overflow: hidden;
+}
+
+#imageJosef{
+    /* width: 125%; */
+    /* height: 100%; */
+    /* padding-top: 15%; */
+}
+
+#imageGaming{
+    /* width: 125%; */
+    /* height: 100%; */
+    /* padding-top: 35%; */
+}
+
+/* SECTION 3: TEXT */
+
+.section3{
+    float: left;
+    width: 60%;
+    height: 450px;
+    padding: 10px;
+    text-align: center;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: red; */
+}
+
+/* ASIDE 1: LÄNKAR TILL INTRESSEN */
+
+.aside1{
+    float: left;
+    padding-top: 0%;
+    width: 20%;
+    height: 450px;
+    text-align: center;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: purple; */
+    /* overflow: hidden; */
+}
+
+.section5{
+    width: 100%;
+}
+
+#josef_gaming{
+    width: 230px;
+    /* width: 100%; */
+}
+
+.section6{
+    width: 100%;
+}
+
+#josef_anime{
+    max-width: 230px;
+    width: 100%;
+}

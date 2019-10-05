@@ -13,7 +13,7 @@ body {
 	min-width: 1366px;
 	min-height: 768px;
 }
-/* span */
+/* span/b */
 span, b {
 	color: rgb(0, 190, 240);
 }
@@ -30,12 +30,13 @@ nav {
 	align-items: center;
 }
 nav img {
+	width: 30px;
 	margin: 0 auto;
 	margin-left: 10px;
 }
 nav h1 {
 	flex: 1;
-	margin: 15px;
+	margin-left: 40px;
 	color: rgb(255, 255, 255);
 }
 .navUl {
@@ -52,7 +53,7 @@ nav h1 {
 }
 .navLi a, .onPage a {
 	width: 70px;
-	padding: 22px 15px;
+	padding: 15px 15px;
 	display: block;
 	text-decoration: none;
 	color: rgb(255, 255, 255);

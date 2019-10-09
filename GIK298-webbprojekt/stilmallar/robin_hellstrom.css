@@ -9,7 +9,7 @@ body {
 	background-color: rgb(0, 0, 0);
 	background-image: url(../robin/bilder/robinBack.jpg);
 	background-size: 100%;
-	font-size: 20px;
+	font-size: 18px;
 }
 /* span/b */
 span, b {
@@ -88,7 +88,7 @@ nav h1 {
 .transBox {
 	overflow: auto;
 	position: relative;
-	background: rgb(0, 0, 0, .5);
+	background: rgba(0, 0, 0, .5);
 	margin: 30px 30px;
 	border: 1px solid rgb(0, 190, 240);
 	box-shadow: 5px 5px 5px -5px rgb(0, 0, 0);

@@ -66,7 +66,7 @@ nav{
     margin-left: 1%;
 }
 
-.navTitle h2{
+.navTitle h1{
     color: white;
     text-align: center;
     margin: 0;
@@ -82,7 +82,7 @@ nav{
     padding: 4%;
 }
 
-.grp_text h1 {
+.grp_text h2 {
     font-size: 3em;
     text-align: center;
     font-family: Arial;
@@ -147,7 +147,8 @@ footer{
     margin-left: 30%;
 }
 
-.footer_section h1 {
+.footer_section h4 {
+    font-size: 24px;;
     color: white;
     text-align: center;
 }
